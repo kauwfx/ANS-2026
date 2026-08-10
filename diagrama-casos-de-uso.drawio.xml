@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="OkKzovLdDEwvQk-cuNQn">
+    <mxGraphModel dx="1510" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kkAxxb8XEhO3Dfe5oTtf-7" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Bibliotech&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="380" width="366" x="-566" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="kkAxxb8XEhO3Dfe5oTtf-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Renovar empréstimo&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="-550" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="kkAxxb8XEhO3Dfe5oTtf-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Reservar livro" vertex="1">
+          <mxGeometry height="80" width="120" x="-550" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="kkAxxb8XEhO3Dfe5oTtf-10" edge="1" parent="1" source="kkAxxb8XEhO3Dfe5oTtf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" target="kkAxxb8XEhO3Dfe5oTtf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kkAxxb8XEhO3Dfe5oTtf-12" edge="1" parent="1" source="kkAxxb8XEhO3Dfe5oTtf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" target="kkAxxb8XEhO3Dfe5oTtf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kkAxxb8XEhO3Dfe5oTtf-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Leitor&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="-630" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="kkAxxb8XEhO3Dfe5oTtf-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;Cadastrar leitor&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="-360" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="kkAxxb8XEhO3Dfe5oTtf-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Consultar acervo" vertex="1">
+          <mxGeometry height="80" width="120" x="-360" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="kkAxxb8XEhO3Dfe5oTtf-16" edge="1" parent="1" source="kkAxxb8XEhO3Dfe5oTtf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" target="kkAxxb8XEhO3Dfe5oTtf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kkAxxb8XEhO3Dfe5oTtf-15" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Bibliotecario&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="-140" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="kkAxxb8XEhO3Dfe5oTtf-18" edge="1" parent="1" source="kkAxxb8XEhO3Dfe5oTtf-4" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" target="kkAxxb8XEhO3Dfe5oTtf-14" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-390" y="350" as="sourcePoint" />
+            <mxPoint x="-230" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
