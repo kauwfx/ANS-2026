@@ -1,6 +1,6 @@
 # Atividade 18 — Diagrama de Classes do BiblioTech
 
-**Nome:** Kauan  
+**Nome:** Kaue  
 **Turma:** 2º ano — Técnico em Informática Integrado  
 
 ## Diagrama
